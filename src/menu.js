@@ -2,7 +2,8 @@
 const menu = () => {
     const menu = document.createElement('div');
     menu.id = 'menu';
-    menu.textContent = 'this is menu page';
+    menu.textContent = 'This is the menu page';
+    menu.classList.add('text');
     
     return { menu };
 }
